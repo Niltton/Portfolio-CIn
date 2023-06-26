@@ -1,0 +1,84 @@
+body {
+    background-color: #666;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    border-right: 3px solid #0000ff;
+}
+
+#NomePessoal {
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+#CargoProfissional {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+#TituloContatos {
+    margin-bottom: 0;
+}
+
+#EmailTrabalho {
+    margin-top: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#FotoPessoal {
+    height: 450px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.FotoAplicativos {
+    height: 100px;
+    width: auto;
+}
+
+nav div ul {
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+    list-style: none;
+}
+
+main {
+    margin-left: 420px;
+    text-align: center;
+}
+
+#ListaHabilidades {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    list-style: none;
+}
+
+#CSSLogo {
+    padding-left: 14.581px;
+    padding-right: 14.581px;
+}
+
+.FotoFerramentas {
+    height: 100px;
+    width: auto;
+}
+
+#ListaOcupações {
+    padding: 0;
+    list-style: none;
+}
